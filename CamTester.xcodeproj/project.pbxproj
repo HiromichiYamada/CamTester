@@ -8,11 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2504267A19D9509300590E9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2504267919D9509300590E9B /* AppDelegate.swift */; };
-		2504267C19D9509300590E9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2504267B19D9509300590E9B /* ViewController.swift */; };
 		2504267F19D9509300590E9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2504267D19D9509300590E9B /* Main.storyboard */; };
 		2504268119D9509300590E9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2504268019D9509300590E9B /* Images.xcassets */; };
 		2504268419D9509300590E9B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2504268219D9509300590E9B /* LaunchScreen.xib */; };
 		2504269019D9509300590E9B /* CamTesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2504268F19D9509300590E9B /* CamTesterTests.swift */; };
+		2504269A19D951F100590E9B /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2504269919D951F100590E9B /* MenuViewController.swift */; };
+		2504269C19D9520400590E9B /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2504269B19D9520400590E9B /* CameraViewController.swift */; };
+		2504269E19D976D600590E9B /* TRXLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2504269D19D976D600590E9B /* TRXLog.swift */; };
+		250426A019D978A700590E9B /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2504269F19D978A700590E9B /* LogViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +32,16 @@
 		2504267419D9509300590E9B /* CamTester.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CamTester.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2504267819D9509300590E9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2504267919D9509300590E9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2504267B19D9509300590E9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2504267E19D9509300590E9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2504268019D9509300590E9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2504268319D9509300590E9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		2504268919D9509300590E9B /* CamTesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CamTesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2504268E19D9509300590E9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2504268F19D9509300590E9B /* CamTesterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CamTesterTests.swift; sourceTree = "<group>"; };
+		2504269919D951F100590E9B /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		2504269B19D9520400590E9B /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		2504269D19D976D600590E9B /* TRXLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TRXLog.swift; sourceTree = "<group>"; };
+		2504269F19D978A700590E9B /* LogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +84,11 @@
 			isa = PBXGroup;
 			children = (
 				2504267919D9509300590E9B /* AppDelegate.swift */,
-				2504267B19D9509300590E9B /* ViewController.swift */,
+				2504269D19D976D600590E9B /* TRXLog.swift */,
 				2504267D19D9509300590E9B /* Main.storyboard */,
+				2504269919D951F100590E9B /* MenuViewController.swift */,
+				2504269B19D9520400590E9B /* CameraViewController.swift */,
+				2504269F19D978A700590E9B /* LogViewController.swift */,
 				2504268019D9509300590E9B /* Images.xcassets */,
 				2504268219D9509300590E9B /* LaunchScreen.xib */,
 				2504267719D9509300590E9B /* Supporting Files */,
@@ -212,8 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2504267C19D9509300590E9B /* ViewController.swift in Sources */,
 				2504267A19D9509300590E9B /* AppDelegate.swift in Sources */,
+				250426A019D978A700590E9B /* LogViewController.swift in Sources */,
+				2504269A19D951F100590E9B /* MenuViewController.swift in Sources */,
+				2504269C19D9520400590E9B /* CameraViewController.swift in Sources */,
+				2504269E19D976D600590E9B /* TRXLog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +351,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CamTester/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -349,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CamTester/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
