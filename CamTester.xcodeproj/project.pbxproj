@@ -170,6 +170,7 @@
 				TargetAttributes = {
 					2504267319D9509300590E9B = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = Z3FD554XT9;
 					};
 					2504268819D9509300590E9B = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -421,6 +422,7 @@
 				2504269519D9509300590E9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2504269619D9509300590E9B /* Build configuration list for PBXNativeTarget "CamTesterTests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +431,7 @@
 				2504269819D9509300590E9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

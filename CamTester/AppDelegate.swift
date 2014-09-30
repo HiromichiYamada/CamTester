@@ -68,6 +68,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 			case "iPad3,4":	return "iPad 4 (WiFi)"
 			case "iPad3,5":	return "iPad 4 (GSM)"
 			case "iPad3,6":	return "iPad 4 (GSM+CDMA)"
+			case "iPad4,4":	return "iPad mini Retina (WiFi)"
+			case "iPad4,5":	return "iPad mini Retina (Cellular)"
 			case "i386":		return "Simulator";
 			case "x86_64":	return "Simulator";
 			default:				return strHWMachine!
